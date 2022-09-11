@@ -43,7 +43,7 @@ public class Basics {
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-        System.out.print("Hello World!");
+        System.out.println("Hello World!");
 
 
 
@@ -146,9 +146,10 @@ public class Basics {
          *                you may use them if you wish.
          */
         StringBuilder ret = new StringBuilder();
+        String[] s = to_split.split(" ");
 
         for (int i=0; i<=6; i++){
-            ret.append(to_split.charAt(i));
+            ret.append(s[i].charAt(0));
         }
 
         // Fill in the rest of the body here
